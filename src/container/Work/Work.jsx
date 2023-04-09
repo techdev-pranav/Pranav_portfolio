@@ -41,19 +41,17 @@ const Work = () => {
         My Creative <span>Portfolio</span> Section
       </h2>
       <div className="app__work-filter">
-        {["UI/UX", "Web App", "Mobile App", "React Js", "All"].map(
-          (ele, index) => (
-            <div
-              key={index}
-              onClick={() => handleFilterClick(ele)}
-              className={`app__workfilter-item app__flex p-text ${
-                activeFilter === ele ? "active-item" : ""
-              }`}
-            >
-              {ele}
-            </div>
-          )
-        )}
+        {["UI/UX", "Web App", "React Js", "All"].map((ele, index) => (
+          <div
+            key={index}
+            onClick={() => handleFilterClick(ele)}
+            className={`app__workfilter-item app__flex p-text ${
+              activeFilter === ele ? "active-item" : ""
+            }`}
+          >
+            {ele}
+          </div>
+        ))}
       </div>
       <motion.div
         animate={animateCard}

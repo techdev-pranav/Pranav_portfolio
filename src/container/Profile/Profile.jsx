@@ -10,7 +10,7 @@ const { resume, profileimg } = images;
 const Profile = () => {
   return (
     <>
-      <h1 className="head-text">Me & my soul</h1>
+      <h1 className="head-text">All About Me</h1>
       <div className="app__profile-container">
         <div className="app__profile-container-image">
           <motion.img
