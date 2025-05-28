@@ -25,18 +25,19 @@ const Profile = () => {
         </div>
         <div className="app__profile-container-content">
           <p className="app__profile-text">
-            As a Front-End Developer, I possess a strong skill set in HTML, CSS,
-            JavaScript, TypeScript, React, Angular, Redux. I excel at designing
-            responsive websites that provide a seamless user experience. My
-            expertise lies in crafting dynamic interfaces through clean and
-            optimized coding, while using the latest development tools and
-            techniques. I thrive in a collaborative environment and enjoy
-            working with cross-functional teams to create exceptional web
-            applications.
+            As a Senior Front-End Developer with over 3 years of experience, I
+            specialize in building secure, high-performance web applications
+            using modern frameworks like React and Angular. My expertise spans
+            HTML, CSS, JavaScript, TypeScript, Redux, and WebSockets, with a
+            strong focus on creating responsive, scalable interfaces that
+            deliver seamless user experiences. I’m passionate about clean
+            architecture, performance optimization, and working collaboratively
+            with cross-functional teams to turn complex problems into elegant
+            digital solutions.
           </p>
           <div className="app__profile-data ">
             <p className="app__profile-data-p1">
-              <span className="head-text">2.5+</span>
+              <span className="head-text">3.5+</span>
               <span className="simple-text">
                 Year <br /> experience
               </span>
